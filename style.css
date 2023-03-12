@@ -1,0 +1,84 @@
+.container {
+	background-color: #06060c;
+	margin: 0 auto;
+}
+
+.wrapper {
+	background-image: url(img/intro-bg-dark.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #06060c;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 0px 100px 0 100px;
+}
+
+.header {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.burger {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 24px;
+	height: 24px;
+}
+
+.burger-block {
+	left: 12.5%;
+	right: 12.5%;
+	top: 75%;
+	bottom: 25%;
+	border: 2px solid #FFFFFF;
+}
+
+.wrapper__center {
+	position: relative;
+}
+
+.wrapper__center-text {
+	position: absolute;
+	max-width: none;
+	left: -112px;
+	top: -83px;
+	z-index: 4;
+}
+
+.frame {}
+
+.looper {
+	left: 0;
+	width: 100%;
+	position: absolute;
+	z-index: 4;
+}
+
+.hand {
+	position: absolute;
+	left: -5px;
+	bottom: -95px;
+	width: 703px;
+	height: 790px;
+	z-index: 3;
+}
+
+.services {
+	padding: 120px 0 0 0;
+
+}
+
+.services__title {
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 76px;
+}
+
+.services__body {}
