@@ -2102,7 +2102,7 @@
 
 
 
-@media (max-width:610px) {
+@media (max-width:720px) {
 	.partner__img-floor {
 		margin: 0 0 20px 0;
 		gap: 20px;
@@ -2631,6 +2631,7 @@
 	justify-content: center;
 	color: #FFFFFF;
 	position: relative;
+	overflow: hidden;
 }
 
 @media (max-width:855px) {
