@@ -3,13 +3,18 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:wght@100&family=Martel:wght@600&display=swap");
 
 
+body {
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
 
 
 .container {
-	background-color: #0E0F14;
 	margin: 0 auto;
-	color: #FFFFFF;
 	overflow: hidden;
+	background-color: #0E0F14;
 }
 
 
@@ -2328,6 +2333,7 @@
 	background: linear-gradient(#0E0F14, #0E0F14) padding-box,
 		linear-gradient(to right, #C339FD, #5357F6) border-box;
 	margin: 0 20px;
+	box-sizing: content-box;
 }
 
 
@@ -2631,7 +2637,6 @@
 	justify-content: center;
 	color: #FFFFFF;
 	position: relative;
-	overflow: hidden;
 }
 
 @media (max-width:855px) {
